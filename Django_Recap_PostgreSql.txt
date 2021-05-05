@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'nombd',
+        'USER': 'nomuser',
+        'PASSWORD': 'azerty',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
