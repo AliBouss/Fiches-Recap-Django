@@ -84,3 +84,4 @@ On pourrait par exemple rajouter `__startswith` pour récupérer tous les articl
 ```python
 BlogPost.objects.filter(author__firstname__startswith="T")
 ```
+python manage.py <nom_app> zero --> pour revenir à la version initial de notre BDD
